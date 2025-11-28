@@ -7,6 +7,10 @@ Source: Flackbox / Neil Anderson — comprehensive OSPF lab covering basics to m
 This lab demonstrates OSPF configuration from basic single-area setup to advanced features like cost manipulation for load balancing, default route injection, multi-area conversion with summarization, and DR/BDR election on multi-access networks. The lab was completed 100% independently using the lab exercise PDF (topologies and questions), with no external resources beyond verification commands. All analysis, configurations, and CLI outputs are original to showcase understanding.
 The repository contains CLI outputs, screenshots, configurations, and a detailed write-up for validation.
 
+
+
+![Lab Topology](./images/3.JPG)
+
 Core Configurations (All Routers)
 Basic OSPF Enablement
 
