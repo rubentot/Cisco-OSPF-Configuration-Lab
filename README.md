@@ -255,7 +255,7 @@ O*E2 0.0.0.0/0 [110/1] via 10.0.3.2, 00:00:06, FastEthernet1/1
 
 Multi-Area OSPF
 
-![Lab Topology](./images/1.png)
+![Lab Topology](./images/1.JPG)
 
 Q17: Convert the network to use multi-area OSPF. R3 and R4 should be backbone routers, R1 a normal router in Area 1, and R2 and R5 ABRs as shown in the diagram below. Save your changes to the startup config and reboot the routers to ensure the changes take effect.
 A: R3 and R4 require no change as all their interfaces are already in Area 0. R1’s interfaces need to be reconfigured to be in Area 1 rather than Area 0
@@ -429,7 +429,7 @@ interface FastEthernet1/1
 
 DR and BDR Designated Routers
 
-![Lab Topology](./images/2.png)
+![Lab Topology](./images/2.JPG)
 
 Q26: Enable a loopback interface on routers R6 to R9. Use the IP address 192.168.0.x/32, where ‘x’ is the router number. For example 192.168.0.6/32 on R6.
 A:
