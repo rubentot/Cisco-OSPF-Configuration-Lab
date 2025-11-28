@@ -1,14 +1,14 @@
-Cisco OSPF Configuration Lab
+# Cisco OSPF Configuration Lab
 
 **Completed:** November 28, 2025
 **Author:** Ruben Tot (@rubentot)
 **Tools:** Cisco Packet Tracer 8.2
-**Source:** Flackbox / Neil Anderson — comprehensive OSPF lab covering basics to multi-area and DR election
+**Source:** Flackbox / Neil Anderson
 
 This lab demonstrates OSPF configuration from basic single-area setup to advanced features like cost manipulation for load balancing, default route injection, multi-area conversion with summarization, and DR/BDR election on multi-access networks. The lab was completed 100% independently using the lab exercise PDF (topologies and questions), with no external resources beyond verification commands. All analysis, configurations, and CLI outputs are original to showcase understanding.
 The repository contains CLI outputs, screenshots, configurations, and a detailed write-up for validation.
 
-
+**Note:** This lab was completed 100% independently using only the lab exercise PDF (questions + topology) — **no answer key was consulted during configuration or troubleshooting. All explanations, insights are my own analysis from real-world knowledge and lab experience.
 
 ![Lab Topology](./images/3.JPG)
 
