@@ -335,6 +335,7 @@ O*E2 0.0.0.0/0 [110/1] via 10.0.0.2, 00:02:59, FastEthernet0/0
 ```
 Q21: Do you see less routes in R1’s routing table? Why or why not?
 A: R1 has the same amount of routes in its routing table because OSPF does not perform automatic summarisation. You must configure manual summarisation to reduce the size of the routing table.
+
 Q22: Configure summary routes on the Area Border Routers for the 10.0.0.0/16 and 10.1.0.0/16 networks.
 A:
 ```Bash
